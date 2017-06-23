@@ -564,7 +564,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigStaging-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigStaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -579,7 +579,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigStaging-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_STAGING";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigStaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -594,7 +594,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigProduction-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_PRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigProduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -609,7 +609,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigProduction-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_PRODUCTION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigProduction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -624,7 +624,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -639,7 +639,7 @@
 				INFOPLIST_FILE = "TargetAndBuildConfigDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTBC_DEV";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfig;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metacube.TargetAndBuildConfigDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -664,6 +664,7 @@
 				63AE6B4C1EFBEEB40092CA59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63AE6B741EFBF06E0092CA59 /* Build configuration list for PBXNativeTarget "TargetAndBuildConfigQA" */ = {
 			isa = XCConfigurationList;
